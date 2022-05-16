@@ -1,0 +1,19 @@
+.toolbar {
+    background: white;
+    color: rgb(15, 1, 1);
+    font-weight: 600;
+}
+.navClose{
+    text-decoration: 'none';
+        color: 'white';
+}
+.button{
+    background: rgb(163, 173, 177);
+        color: rgb(15, 1, 1);
+        font-weight: 600;
+        border: none
+}
+
+img {
+    margin-left: 30px;
+}

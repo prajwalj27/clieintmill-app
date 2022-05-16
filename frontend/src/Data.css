@@ -1,0 +1,13 @@
+.container {
+  margin-top: 0 !important;
+}
+
+.button {
+  background-color: #ff2c65 !important;
+  color: white !important;
+}
+
+h1, th {
+  font-weight: 700;
+  color: #2a2d50;
+}

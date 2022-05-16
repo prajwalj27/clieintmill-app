@@ -1,0 +1,26 @@
+[
+    {
+        
+        "nut": "1",
+        "start": "10:20:09",
+        "end": "10:20:09",
+        "result": "Correct"
+    },
+    {
+        
+        "nut": "5",
+        "start": "10:20:50",
+        "end": "10:21:01",
+        "result": "Less Duration"
+    },
+    {
+        
+        "nut": "6",
+        "start": "10:21:27",
+        "end": "10:22:09",
+        "result": "Wrong Nut"
+    }
+
+
+
+]
