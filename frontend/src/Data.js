@@ -44,14 +44,14 @@ const Data = () => {
   }, [socket, tableDatas.length, socketData.length]);
 
   useEffect(() => {
-    fetch("http://ec2-3-144-208-101.us-east-2.compute.amazonaws.com/api/data")
+    fetch("http://3.145.160.248/api/data")
       .then((res) => res.json())
       .then((data) => setTableDatas(data));
   }, [tableDatas]);
 
   const handleDelete = (id) => {
     console.log(id);
-    const url = `http://ec2-3-144-208-101.us-east-2.compute.amazonaws.com/api/data/${id}`;
+    const url = `http://3.145.160.248/api/data/${id}`;
     fetch(url, {
       method: "DELETE",
     })
