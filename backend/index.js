@@ -34,7 +34,7 @@ async function run() {
 
 
         // // GET API
-        app.get('/data', async (req, res) => {
+        app.get('/api/data', async (req, res) => {
             const cursor = tableCollection.find({});
             const datas = await cursor.toArray();
             res.send(datas)
@@ -42,7 +42,7 @@ async function run() {
         })
 
         // //DELETE API
-        app.delete('/data/:id', async (req, res) => {
+        app.delete('/api/data/:id', async (req, res) => {
             const id = req.params.id;
             const query = { _id: ObjectId(id) };
             const result = await tableCollection.deleteOne(query)
